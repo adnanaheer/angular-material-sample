@@ -1,0 +1,40 @@
+.sidenav-container {
+    height: auto;
+}
+
+.sidenav {
+    width: 200px;
+}
+
+.sidenav .mat-toolbar {
+    background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.spacer{
+    flex: 1 0 auto;
+}
+.butlog{
+      color: #673AB7;
+
+}
+
+::ng-deep .mat-menu-panel{
+  border:1px solid #673AB7;
+}
+span{
+  cursor: pointer;
+}
+.span:active{
+  outline: none;
+}
+
+.astyle{
+  border-bottom: solid 1px #673AB7;
+  padding: 10px;
+  margin-top: 10px;
+}

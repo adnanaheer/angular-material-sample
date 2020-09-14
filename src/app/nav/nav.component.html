@@ -1,0 +1,51 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav">
+    <mat-toolbar style="background-color: #673AB7;color: white;">Menu</mat-toolbar>
+    <mat-nav-list>
+      <a  class="astyle" mat-list-item>Home</a>
+      <a  class="astyle" mat-list-item href="#">Link 1</a>
+      <a  class="astyle" mat-list-item href="#">Link 2</a>
+      <a  class="astyle" mat-list-item href="#">Link 3</a>
+      <a  class="astyle" mat-list-item href="#">Link 4</a>
+      <a  class="astyle" mat-list-item href="#">Link 5</a>
+      <a  class="astyle" mat-list-item href="#">Link 6</a>
+      <a  class="astyle" mat-list-item href="#">Link 7</a>
+      <a  class="astyle" mat-list-item href="#">Link 8</a>
+      <a  class="astyle" mat-list-item href="#">Link 9</a>
+      <a  class="astyle" mat-list-item href="#">Link 10</a>
+      <a  class="astyle" mat-list-item href="#">Link 11</a>
+      <a  class="astyle" routerLink='contactus' mat-list-item href="#">Contact Us</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button type="button" mat-icon-button (click)="drawer.toggle()">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+
+      <span style="margin-left: 30px;" routerLink='/'>Aheer</span>
+
+      <div class="spacer"></div>
+      <div>
+        <!--
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <i class="material-icons dp48">person_pin</i>
+        </button> -->
+
+
+        <button mat-button [matMenuTriggerFor]="menu">
+          <mat-icon>account_circle</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button class="butlog" routerLink='form' mat-menu-item>Login</button>
+          <button class="butlog" routerLink='signup'  mat-menu-item>Sign Up</button>
+        </mat-menu>
+
+      </div>
+
+
+    </mat-toolbar>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
