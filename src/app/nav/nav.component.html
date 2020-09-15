@@ -1,6 +1,6 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav">
-    <mat-toolbar style="background-color: #673AB7;color: white;">Menu</mat-toolbar>
+    <mat-toolbar style="color: white;background-image: url(https://images.unsplash.com/photo-1571647520939-45c81309ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); ">Menu</mat-toolbar>
     <mat-nav-list>
       <a  class="astyle" mat-list-item>Home</a>
       <a  class="astyle" mat-list-item href="#">Link 1</a>
@@ -19,9 +19,9 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar class="bg">
       <button type="button" mat-icon-button (click)="drawer.toggle()">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <mat-icon style="color: white;" aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
 
       <span routerLink='/'><img src="./assets/new logo.png" alt="logo"></span>
@@ -35,8 +35,9 @@
 
 
         <button mat-button [matMenuTriggerFor]="menu">
-          <mat-icon>account_circle</mat-icon>
+          <mat-icon style="color: white;"  class="material-icon">account_circle</mat-icon>
         </button>
+
         <mat-menu #menu="matMenu">
           <button class="butlog" routerLink='form' mat-menu-item>Login</button>
           <button class="butlog" routerLink='signup'  mat-menu-item>Sign Up</button>
