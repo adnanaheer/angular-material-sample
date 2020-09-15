@@ -41,7 +41,7 @@ input.example-right-align {
     box-sizing: border-box;
     width: 900px;
     margin: 100px auto 0;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 8px 3px rgba(103, 58, 183, 0.5);
     padding-bottom: 40px;
     border-radius: 3px;
  }
@@ -78,6 +78,7 @@ input.example-right-align {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 18px;
     border: none;
     background: #673ab7;
     cursor: pointer;
@@ -92,6 +93,8 @@ input.example-right-align {
   button:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.9s;
+
  }
 
 
