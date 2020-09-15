@@ -28,6 +28,13 @@
 }
 span{
   cursor: pointer;
+
+}
+img{
+  display: flex;
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
 }
 .span:active{
   outline: none;
