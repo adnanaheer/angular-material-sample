@@ -1,0 +1,45 @@
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 500;
+}
+.container {
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 300px;
+  transition: .9s ease;
+  opacity:0;
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}

@@ -4,7 +4,8 @@ import { FromComponent } from './from/from.component';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { UsersComponent} from './users/users.component';
+import { AboutComponent} from './about/about.component';
+import { TeamComponent} from './team/team.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
@@ -12,7 +13,9 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'contactus', component: ContactusComponent },
-  { path: 'users', component: UsersComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'team', component: TeamComponent },
+
 
 
 

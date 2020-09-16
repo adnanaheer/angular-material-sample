@@ -19,7 +19,11 @@ import {AppRoutingModule} from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { UsersComponent } from './users/users.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { TeamComponent } from './team/team.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { UsersComponent } from './users/users.component';
     HomeComponent,
     SignupComponent,
     ContactusComponent,
-    UsersComponent
+    AboutComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    TeamComponent,
+    BlogComponent
 
   ],
   imports: [
@@ -45,6 +53,7 @@ import { UsersComponent } from './users/users.component';
     MatListModule,
     MatMenuModule,
     AppRoutingModule,
+
 
   ],
   providers: [],
