@@ -19,6 +19,7 @@ import {AppRoutingModule} from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     FromComponent,
     HomeComponent,
     SignupComponent,
-    ContactusComponent
+    ContactusComponent,
+    UsersComponent
 
   ],
   imports: [

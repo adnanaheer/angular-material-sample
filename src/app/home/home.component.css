@@ -1,4 +1,10 @@
-/* carasol Start */
+h1{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
 .example-card {
   max-width: 300px;
   border-bottom: 1px solid #66473d;
@@ -7,6 +13,12 @@
   opacity: 10px;
   margin: 10px;
   text-align: center;
+
+}
+.example-card-img{
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
 
 }
 .example-card:hover {
@@ -22,7 +34,21 @@
 .matcard{
   display: flex;
   flex-direction: row;
-
 }
-
-/* carasol End */
+.butt{
+  justify-content: space-between;
+  background-color: #66473d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 6px 0 rgba(102, 71, 61, 0.5);
+  transition: 0.9s;
+}
