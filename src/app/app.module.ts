@@ -2,6 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatMenuModule} from '@angular/material/menu';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 import { AppComponent } from './app.component';
@@ -53,6 +57,9 @@ import { BlogComponent } from './blog/blog.component';
     MatListModule,
     MatMenuModule,
     AppRoutingModule,
+    FlexLayoutModule,
+    MatFormFieldModule,
+    MatInputModule
 
 
   ],
