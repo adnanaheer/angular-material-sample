@@ -1,9 +1,17 @@
+.bg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80);
+  background-size: cover;
+}
 h1{
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-size: 35px;
   font-weight: 500;
+
 }
 .container {
   position: relative;
@@ -15,7 +23,6 @@ h1{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .image {
@@ -28,7 +35,7 @@ h1{
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.8); /* Black see-through */
   color: #f1f1f1;
   width: 300px;
   transition: .9s ease;
@@ -38,6 +45,7 @@ h1{
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+
 }
 
 .container:hover .overlay {

@@ -1,6 +1,11 @@
 h1, input::-webkit-input-placeholder, button {
-  font-family: 'roboto', sans-serif;
   transition: all 0.8s ease-in-out;
+}
+.bg{
+  background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80);
+  background-size: cover;
+  z-index: 0.1;
+  height: 93vh;
 }
 
 h1 {
@@ -15,12 +20,18 @@ h1 {
   box-shadow: 0 2px 5px 1px rgba(102, 71, 61, 0.2);
 }
 form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
   box-sizing: border-box;
   width: 800px;
-  margin: 100px auto 0;
   box-shadow: 5px 5px 8px 3px rgba(102, 71, 61, 0.5);
   padding-bottom: 40px;
   border-radius: 3px;
+  margin: auto;
+
+
 }
 form h1 {
   box-sizing: border-box;
