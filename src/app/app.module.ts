@@ -24,6 +24,7 @@ import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { BlogComponent } from './blog/blog.component';
+import { TeamaboutComponent } from './teamabout/teamabout.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { BlogComponent } from './blog/blog.component';
     ServicesComponent,
     PortfolioComponent,
     TeamComponent,
-    BlogComponent
+    BlogComponent,
+    TeamaboutComponent
 
   ],
   imports: [

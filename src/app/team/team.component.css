@@ -51,3 +51,9 @@ h1{
 .container:hover .overlay {
   opacity: 1;
 }
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
