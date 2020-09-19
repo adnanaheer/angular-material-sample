@@ -6,7 +6,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
-import { TeamaboutComponent } from './teamabout/TeamAbout.Component';
+import { TeamaboutComponent } from './teamabout/teamabout.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
