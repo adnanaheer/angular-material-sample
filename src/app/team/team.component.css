@@ -1,10 +1,4 @@
-.bg{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80);
-  background-size: cover;
-}
+
 h1{
   display: flex;
   justify-content: center;
@@ -51,9 +45,4 @@ h1{
 .container:hover .overlay {
   opacity: 1;
 }
-button{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
+
