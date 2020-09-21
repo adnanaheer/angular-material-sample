@@ -1,11 +1,30 @@
+.main{
+  background: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainin{
+  text-align: center;
+  width: 300px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.material-icons{
+  font-size: 60px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #66473d;
+}
 
-h1{
+/* h1{
   display: flex;
   justify-content: center;
   margin: 30px;
   font-size: 40px;
   font-weight: 600;
-}
+} */
 .example-card {
   max-width: 300px;
   border-bottom: 1px solid #66473d;
@@ -50,14 +69,7 @@ button:hover {
   box-shadow: 0 6px 6px 0 rgba(102, 71, 61, 0.5);
   transition: 0.9s;
 }
-.bg{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 15px;
-  background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=594&q=80);
-  background-size: cover;
-}
+
 
 footer{
   height: 50px;
