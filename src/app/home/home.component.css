@@ -18,12 +18,13 @@
   font-weight: 900;
   padding-bottom: 20px;
   color: #66473d;
+
 }
 
 .about {
-  margin: 80px;
+  margin: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 
@@ -70,10 +71,11 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   background-color: #66473d;
-  height: 700px;
+  height: 800px;
 }
 .cardp{
   text-align: center;
+
 }
 .cardimg{
   display: flex;
@@ -103,6 +105,20 @@ a:hover{
   height: 300px;
 
 }
+
+.icon-image-preview{
+  background-color: black;
+  border: 6px solid;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+.ourh1{
+  font-weight: 600;
+  font-size: 18px;
+}
+/* :host::ng-deep.icons.{
+
+} */
 
 
 footer {
