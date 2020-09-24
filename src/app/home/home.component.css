@@ -71,11 +71,12 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   background-color: #66473d;
-  height: 800px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 .cardp{
   text-align: center;
-
+  padding: 30px;
 }
 .cardimg{
   display: flex;
