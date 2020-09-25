@@ -1,0 +1,25 @@
+.team-member{
+  height: 378px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+.team-content{
+  background: #f6b60b;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+}
+.name{
+  font: 700 14px "Roboto", sans-serif;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
