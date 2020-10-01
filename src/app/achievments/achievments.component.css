@@ -8,16 +8,19 @@
   padding-bottom: 100px;
   color: aliceblue;
 }
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .tittle {
   text-align: center;
   text-transform: uppercase;
 }
+
 .our_achievments_area .achievments_row {
   padding-top: 60px;
 }
@@ -25,31 +28,37 @@
 .our_achievments_area .tittle h2 {
   color: #fff;
 }
+
 .tittle h2 {
   font: 400 24px "Oswald", sans-serif;
   padding-top: 90px;
   position: relative;
 }
+
 .tittle h4 {
   font: 400 14px "Roboto", sans-serif;
   color: #555555;
   padding-top: 35px;
 }
+
 .our_achievments_area .tittle h4 {
   color: #fefefe;
 }
+
 .our_achievments_area .achievments_row .completed i {
   font-size: 30px;
   color: #fff;
   display: block;
   padding-top: 10px;
 }
+
 .our_achievments_area .achievments_row .completed .counter {
   font: 700 40px "Roboto", sans-serif;
   color: #f6b60b;
   display: block;
   padding-top: 23px;
 }
+
 .our_achievments_area .achievments_row .completed h6 {
   font: 400 14px "Roboto", sans-serif;
   color: #fff;
@@ -57,9 +66,37 @@
   text-transform: uppercase;
   padding-bottom: 5px;
 }
+
 .our_achievments_area .achievments_row .completed {
   text-align: center;
   border-right: 3px solid #fff;
   padding-right: 50px;
   margin-right: 50px;
+}
+
+::ng-deep .completid {
+  text-align: center;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+.our_achievments_area .achievments_row .completid i {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  padding-top: 10px;
+}
+
+.our_achievments_area .achievments_row .completid .counter {
+  font: 700 40px "Roboto", sans-serif;
+  color: #f6b60b;
+  display: block;
+  padding-top: 23px;
+}
+
+.our_achievments_area .achievments_row .completid h6 {
+  font: 400 14px "Roboto", sans-serif;
+  color: #fff;
+  padding-top: 20px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
 }

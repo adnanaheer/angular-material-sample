@@ -29,6 +29,7 @@ import { TeamaboutComponent } from './teamabout/teamabout.component';
 import { OurservicesComponent } from './ourservices/ourservices.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { AchievmentsComponent } from './achievments/achievments.component';
+import { OurtestimonialsComponent } from './ourtestimonials/ourtestimonials.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { AchievmentsComponent } from './achievments/achievments.component';
     TeamaboutComponent,
     OurservicesComponent,
     OurteamComponent,
-    AchievmentsComponent
+    AchievmentsComponent,
+    OurtestimonialsComponent
 
   ],
   imports: [
