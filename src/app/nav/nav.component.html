@@ -3,11 +3,11 @@
     <mat-toolbar style="color: white;background-image: url(https://images.unsplash.com/photo-1571647520939-45c81309ba91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80); ">Menu</mat-toolbar>
     <mat-nav-list>
       <a  class="astyle" mat-list-item>Home</a>
-      <a  class="astyle" mat-list-item href="about">About Us</a>
       <a  class="astyle" mat-list-item href="#">Services</a>
-      <a  class="astyle" mat-list-item href="#">Portfolio</a>
       <a  class="astyle" mat-list-item href="team">Team</a>
+      <a  class="astyle" mat-list-item href="#">Portfolio</a>
       <a  class="astyle" mat-list-item href="">Blog</a>
+      <a  class="astyle" mat-list-item href="about">About Us</a>
       <a  class="astyle" mat-list-item href="contactus">Contact Us</a>
     </mat-nav-list>
   </mat-sidenav>
@@ -21,12 +21,8 @@
       <span routerLink='/'><img src="./assets/new logo.png" alt="logo"></span>
 
       <div class="spacer"></div>
-      <div>
-        <!--
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <i class="material-icons dp48">person_pin</i>
-        </button> -->
 
+      <div>
 
         <button mat-button [matMenuTriggerFor]="menu">
           <mat-icon style="color: white;"  class="material-icon">account_circle</mat-icon>

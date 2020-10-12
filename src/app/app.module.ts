@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatMenuModule} from '@angular/material/menu';
+import { FlexLayoutModule} from '@angular/flex-layout';
 
 
 import { AppComponent } from './app.component';
@@ -25,6 +26,10 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TeamComponent } from './team/team.component';
 import { BlogComponent } from './blog/blog.component';
 import { TeamaboutComponent } from './teamabout/teamabout.component';
+import { OurservicesComponent } from './ourservices/ourservices.component';
+import { OurteamComponent } from './ourteam/ourteam.component';
+import { AchievmentsComponent } from './achievments/achievments.component';
+import { OurtestimonialsComponent } from './ourtestimonials/ourtestimonials.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +44,11 @@ import { TeamaboutComponent } from './teamabout/teamabout.component';
     PortfolioComponent,
     TeamComponent,
     BlogComponent,
-    TeamaboutComponent
+    TeamaboutComponent,
+    OurservicesComponent,
+    OurteamComponent,
+    AchievmentsComponent,
+    OurtestimonialsComponent
 
   ],
   imports: [
@@ -55,7 +64,7 @@ import { TeamaboutComponent } from './teamabout/teamabout.component';
     MatListModule,
     MatMenuModule,
     AppRoutingModule,
-
+    FlexLayoutModule
 
   ],
   providers: [],
