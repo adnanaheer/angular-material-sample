@@ -2,7 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
 import {MatMenuModule} from '@angular/material/menu';
+<<<<<<< HEAD
 import { FlexLayoutModule} from '@angular/flex-layout';
+=======
+import { FlexLayoutModule } from "@angular/flex-layout";
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+>>>>>>> convert_to_angular_material
 
 
 import { AppComponent } from './app.component';
@@ -70,8 +77,14 @@ import {MatInputModule} from '@angular/material/input';
     MatMenuModule,
     AppRoutingModule,
     FlexLayoutModule,
+<<<<<<< HEAD
     ReactiveFormsModule,
     MatInputModule
+=======
+    MatFormFieldModule,
+    MatInputModule
+
+>>>>>>> convert_to_angular_material
 
   ],
   providers: [],
