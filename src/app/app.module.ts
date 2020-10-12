@@ -30,6 +30,10 @@ import { OurservicesComponent } from './ourservices/ourservices.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { AchievmentsComponent } from './achievments/achievments.component';
 import { OurtestimonialsComponent } from './ourtestimonials/ourtestimonials.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './contact/contact.component';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -48,7 +52,8 @@ import { OurtestimonialsComponent } from './ourtestimonials/ourtestimonials.comp
     OurservicesComponent,
     OurteamComponent,
     AchievmentsComponent,
-    OurtestimonialsComponent
+    OurtestimonialsComponent,
+    ContactComponent
 
   ],
   imports: [
@@ -64,7 +69,9 @@ import { OurtestimonialsComponent } from './ourtestimonials/ourtestimonials.comp
     MatListModule,
     MatMenuModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ReactiveFormsModule,
+    MatInputModule
 
   ],
   providers: [],

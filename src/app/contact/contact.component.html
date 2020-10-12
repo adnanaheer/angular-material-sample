@@ -1,0 +1,26 @@
+<form fxFlex fxLayoutAlign="center center" fxLayoutGap="20px" fxLayout="column" [formGroup]="contactForm" (ngSubmit)="onSubmit()"
+    novalidate>
+
+    <h1>Login Form</h1>
+
+    <div fxLayout="column" fxLayoutGap="20px" formGroupName="personalData" novalidate>
+
+        <input matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+
+    
+        <input type="password" matInput [formControl]="passwordFormControl" placeholder="Password">
+        
+        <!-- <select formControlName="country" >
+            <option *ngFor="let country of countries" [value]="country">{{country}}</option>
+        </select> -->
+    </div>
+        <!-- <select formControlName="requestType">
+            <option *ngFor="let requestType of requestTypes" [value]="requestType">{{requestType}}</option>
+        </select> -->
+    <div>
+        <button type="submit" [disabled]="contactForm.pristine">Submit</button>
+        <button type="reset" (click)="revert()">
+            Revert
+        </button>
+    </div>
+</form>
